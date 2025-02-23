@@ -1,0 +1,69 @@
+.main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-right: 15px;
+    height: 50px;
+    width: 100px;
+    border-radius:20px;
+}
+
+.item{
+    margin-top: 250px;
+}
+#btn1{
+    background-color: rgb(233, 11, 159);
+    color: white;
+}
+#btn2{
+    background-color: rgb(37, 37, 110);
+    color: white;
+}
+#code{
+    /* background-color: rgb(6, 160, 101); */
+    color: white;
+    border-width: 2px;
+    border-left: 9px;
+}
+#copy{
+    color: white;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+}
+
+
+@media (max-width: 412px) {
+    #code {
+        margin-left: 5%; 
+        margin-right: 5%; 
+        font-size: 1.2rem; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
